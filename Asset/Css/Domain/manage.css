@@ -1,0 +1,240 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    margin: 0;
+    padding: 0;
+}
+
+.manage-container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.message {
+    padding: 10px;
+    background: #d4edda;
+    color: #155724;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.table-section {
+    margin-bottom: 50px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background: #007BFF;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+button {
+    padding: 4px 2px;
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.crud-form input, .crud-form select {
+    display: block;
+    margin: 8px 0;
+    padding: 8px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.crud-form button {
+    margin-top: 5px;
+}
+
+ 
+ 
+ 
+main.vendor-main {
+    padding: 20px;
+}
+
+
+.vendor-main {
+    width: 95%;
+    max-width: 1200px;
+    margin: 30px auto;
+    font-family: Arial, sans-serif;
+}
+
+.vendor-main h2, .vendor-main h3 {
+    color: #333;
+}
+
+.vendor-main form input, 
+.vendor-main form textarea, 
+.vendor-main form button {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 15px;
+    padding: 4px 3px;
+    font-size: 14px;
+}
+
+.vendor-main table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.vendor-main table th, 
+.vendor-main table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+.vendor-main table th {
+    background-color: #f4f4f4;
+}
+
+.vendor-main img {
+    max-width: 80px;
+    height: auto;
+}
+
+.vendor-main .btn {
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    border-radius: 3px;
+    margin: 2px;
+    display: inline-block;
+}
+
+.vendor-main .btn-danger {
+    background-color: #dc3545;
+}
+
+
+
+
+
+
+
+
+
+
+/* Container styling */
+form {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 10px;
+    background: #f8f8f8;
+    border-radius: 1px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Form heading */
+form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Input fields */
+form input[type="text"],
+form input[type="number"],
+form textarea {
+    width: 100%;
+    padding: 10px 12px;
+    margin: 8px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border 0.3s;
+}
+
+form input[type="text"]:focus,
+form input[type="number"]:focus,
+form textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+/* Textarea */
+form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* Button */
+form button {
+    width: 100%;
+    padding: 5px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Label spacing */
+form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: #555;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    form {
+        padding: 20px;
+    }
+    form input[type="text"],
+    form input[type="number"],
+    form textarea,
+    form button {
+        font-size: 14px;
+    }
+}

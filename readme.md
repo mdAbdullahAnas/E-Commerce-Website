@@ -1,5 +1,5 @@
 
-# 🛍️ Super Shop Management System (SSM)
+# 🛍️ E-Commerce Management System 
 
 ## 📘 Project Description
 The **Super Shop Management System (SSM)** is a web-based application designed to help manage and automate the operations of a retail or online store.  
